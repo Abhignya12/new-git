@@ -2,26 +2,21 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
     <modelVersion>4.0.0</modelVersion>
-
     <!-- Project Information -->
     <groupId>CSMB</groupId>
     <artifactId>CEMS</artifactId>
     <packaging>war</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <name>CEMS</name>
-
     <!-- Java Configuration -->
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
     <!-- Dependencies -->
     <dependencies>
-
         <!-- JUnit -->
         <dependency>
             <groupId>junit</groupId>
@@ -29,29 +24,23 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
-
         <!-- MySQL Connector -->
         <dependency>
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
             <version>8.0.33</version>
         </dependency>
-
         <!-- CEMS Utils -->
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>cems-utils</artifactId>
             <version>1.0</version>
         </dependency>
-
     </dependencies>
-
     <!-- Build Configuration -->
     <build>
         <finalName>CEMS</finalName>
-
         <plugins>
-
             <!-- Maven Compiler Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -62,8 +51,6 @@
                     <target>8</target>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
-
 </project>
