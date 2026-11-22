@@ -10,7 +10,7 @@ public class App {
         int studentId = 101;
         String course = "Computer Science";
 
-        System.out.println("Student Name: " + studentName);
+        System.out.println("Student Name updated: " + studentName);
         System.out.println("Student ID: " + studentId);
         System.out.println("Course: " + course);
     }
