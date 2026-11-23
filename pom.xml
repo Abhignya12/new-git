@@ -242,3 +242,12 @@ pipeline {
         }
     }
 }
+
+
+CONFIG-TOMCAT USERS
+<role rolename="manager-gui"/>
+    <role rolename="manager-script"/>
+
+    <user username="tomcatadmin"
+          password="YOUR_STRONG_PASSWORD"
+          roles="manager-gui,manager-script"/>
